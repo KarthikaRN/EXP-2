@@ -16,6 +16,7 @@ If the goal is not met, contributors can withdraw their funds.
 
 
 ## Program:
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -59,21 +60,12 @@ contract Crowdfunding {
         payable(msg.sender).transfer(amount);
     }
 }
+
 ```
-# Expected Output:
-Users can contribute ETH to the campaign.
+## Output:
 
-
-If the goal is met, the creator can withdraw funds.
-
-
-If the goal is not met, contributors can claim a refund.
-
-
-# High-Level Overview:
-Teaches decentralized fundraising.
-
-
-Avoids fraud by ensuring funds are only transferred if the goal is met.
+![Screenshot 2025-04-28 184329](https://github.com/user-attachments/assets/ca3b3f9a-f22c-4d05-b6ae-fb6aa57bbc7e)
 
 # RESULT: 
+
+![Screenshot 2025-04-28 184540](https://github.com/user-attachments/assets/8cb18e38-d0ff-442c-a897-cdf6728079dc)
