@@ -4,18 +4,12 @@ To create a decentralized crowdfunding platform where donors contribute funds on
 
 ## Algorithm:
 A project owner starts a campaign with a funding goal and deadline.
-
-
 Contributors can send ETH to the campaign.
-
-
 If the goal is met before the deadline, funds are released to the project owner.
-
-
 If the goal is not met, contributors can withdraw their funds.
 
-
 ## Program:
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -60,20 +54,17 @@ contract Crowdfunding {
     }
 }
 ```
+
 # Expected Output:
 Users can contribute ETH to the campaign.
-
-
 If the goal is met, the creator can withdraw funds.
-
-
 If the goal is not met, contributors can claim a refund.
 
+<img width="1913" height="1090" alt="Screenshot 2025-10-22 103418" src="https://github.com/user-attachments/assets/fb63204f-af2c-4a9d-9dcb-e5a9f762b8b5" />
 
 # High-Level Overview:
 Teaches decentralized fundraising.
-
-
 Avoids fraud by ensuring funds are only transferred if the goal is met.
 
 # RESULT: 
+The decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met is successfully created.
